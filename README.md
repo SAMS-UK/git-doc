@@ -27,7 +27,8 @@ git branch
 ```  
  
  
-**Q:** I want to commit to the default branch
+> [!IMPORTANT]  
+> **At this point you want to decide on a branch to push changes to. If wanting to push to default branch:**
     
 Change a file then add changes:
 ```
@@ -45,11 +46,9 @@ Commit the change:
 git push
 ```  
  
+> [!IMPORTANT]  
+> **If you dont want to push directly to the default branch, but want to create a new branch to test ideas:**
  
-
-**Q:** I'm not sure I want to commit directly to that branch. I'd rather create a new branch for myself to test ideas.
-
-
 Change a file then add changes e.g.
 ```
 git add Readme.md
@@ -71,9 +70,10 @@ Push the changes:
 ```
 git push -u origin my_test_branch
 ```  
+ 
+> [!IMPORTANT]  
+> **Q:** I want to set up a new repository for my project and push that to github
 
-
-**Q:** I want to set up a new repository for my project and push that to github
 
 If you need to create a new repo (this is best to do on your own personal github page e.g. https://github.com/jimihendrix) you can do the following:
 
