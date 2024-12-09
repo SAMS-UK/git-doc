@@ -3,8 +3,14 @@
  
 **Prerequisites**
 * Git installed on your system.
-*  A GitHub account set up.
+* A GitHub account set up.
 
+ 
+1. [When you want to push to an existing GitHub repo](#when-you-want-to-push-to-an-existing-github-repo)
+2. [When you want to set up a new repository for a project and push that to GitHub](#when-you-want-to-set-up-a-new-repository-for-a-project-and-push-that-to-github)
+3. [When you want to pull changes from a GitHub repo](#when-you-want-to-pull-changes-from-a-github-repo)
+ 
+ 
 
 ## When you want to push to an existing github repo:
 
