@@ -17,6 +17,9 @@ A: In a terminal of your choice (IDEs also have GUIs for this too)
 git clone https://github.com/username/project-title.git
 ```
 
+![clone](images/clone.png)
+
+
 2. Check your url is set:
 ```
 git remote -v
@@ -81,9 +84,18 @@ If you need to create a new repo (this is best to do on your own personal github
 
 
 Go to GitHub, log in, and click on the + New Repository button.
+
+![New1](images/new.png)
+
+
 Provide a name for your repository (e.g., project-title) and click Create Repository.
 
+![New2](images/new2.png)
+
 GitHub will provide the repository URL (e.g., **`https://github.com/username/project-title.git"`**).
+
+
+In your terminal: 
 
 1. git init
 2. Initalize: **`git init`**
