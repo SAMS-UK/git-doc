@@ -13,14 +13,24 @@ A: In a terminal of your choice (IDEs also have GUIs for this too)
 ## I want to commit to the default branch
    
 Change a file then add changes e.g.  **`git add Readme.md`**
+
+
 Commit the changes: **`git commit -m "added something to the readme doc"`**
+
+
 Push the changes to remote repo: **`git push"`**
 
 ## I'm not sure I want to commit directly to that branch. I'd rather create a new branch for myself to test ideas.
 
    Change a file then add changes e.g.  **`git add Readme.md`**
+
+   
    Commit the changes: **`git commit -m "added something to the readme doc"`**
+
+   
    Create a test branch **`git switch -c my_test_branch"`**
+
+   
    Push the changes **`git push -u origin my_test_branch"`**
 
 
