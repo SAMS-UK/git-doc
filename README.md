@@ -6,6 +6,8 @@
 *  A GitHub account set up.
 
 
+## When you want to push to an existing github repo:
+
 **Q:** The git repository already exists and I want to contribute
 
 A: In a terminal of your choice (IDEs also have GUIs for this too)
@@ -70,9 +72,9 @@ Push the changes:
 ```
 git push -u origin my_test_branch
 ```  
- 
-> [!IMPORTANT]  
-> **Q:** I want to set up a new repository for my project and push that to github
+
+
+## When you want to set up a new repository for a project and push that to github
 
 
 If you need to create a new repo (this is best to do on your own personal github page e.g. https://github.com/jimihendrix) you can do the following:
@@ -89,6 +91,34 @@ GitHub will provide the repository URL (e.g., **`https://github.com/username/pro
 4. Commit the changes: **`git commit -m "added something to the readme doc"`**
 5. Set the remote URL: **`git remote add origin https://github.com/username/project-title.git"`**
 6. Push to a branch e.g. push to the main branch **`git push -u origin main`**  
+
+
+## When you want to pull changes from a github repo:
+
+
+fetch the changes:
+```
+git fetch
+```
+
+- What It Does:
+  1. Downloads changes (commits, branches, tags) from the remote repository but does not automatically merge them into your local branch.
+  2. Updates the references to the remote branches (e.g., origin/main) in your local repository.
+- When to Use:
+- When you want to see what changes are available on the remote repository without altering your working directory or current branch.
+
+
+[!WARNING]
+The following merges changes from the remote branch into your local branch. Uncommitted changes are protected, but merge conflicts may arise if your local branch has divergent commits.
+
+pull the changes:
+```
+git pull
+```
+
+- What It Does: Combines the functionality of git fetch and git merge. Downloads changes from the remote repository and merges them into your current branch.
+
+
 
 
  
