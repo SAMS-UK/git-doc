@@ -120,8 +120,9 @@ git fetch
 - When you want to see what changes are available on the remote repository without altering your working directory or current branch.
 
 
-[!WARNING]
-The following merges changes from the remote branch into your local branch. Uncommitted changes are protected, but merge conflicts may arise if your local branch has divergent commits.
+
+> [!WARNING]  
+> The following merges changes from the remote branch into your local branch. Uncommitted changes are protected, but merge conflicts may arise if your local branch has divergent commits.
 
 pull the changes:
 ```
