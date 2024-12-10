@@ -1,3 +1,8 @@
+> **_NOTE:_**  Anyone in the SAMS-UK org can edit this. Its designed to be a reference for new and exisitng users - of course there is plenty of git docs and tutorials free online!
+>  
+
+
+
 # **Git quickstart guide**
 
  
